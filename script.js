@@ -118,7 +118,7 @@ menuItems.forEach(item => {
   li.innerHTML = `
     <div class="fh5co-food-desc">
       <figure>
-        <img src="./foodano.jpg" class="img-responsive" alt="Free HTML5 Templates by FREEHTML5.co">
+        <img src="./foodano.jpg" class="img-responsive" alt="img">
       </figure>
       <div>
         <h3>${item.name}</h3>
