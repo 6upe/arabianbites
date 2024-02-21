@@ -103,10 +103,10 @@ function sendOrder(orderDetails) {
 
   // Sample menu items
 const menuItems = [
-    { img: './logo.png', name: 'Buffalo Wings', price: 120 },
-    { img: './logo.png', name: 'Fatteh', price: 150 },
-    { img: './logo.png', name: 'Chips Big Plate', price: 60 },
-    { img: './logo.png', name: 'Hummus Moutabal', price: 130 }
+    { img: './Buffalo Wings.jpg', name: 'Buffalo Wings', price: 120 },
+    { img: './Fatteh.jpg', name: 'Fatteh', price: 150 },
+    { img: './chips.jpg', name: 'Chips Big Plate', price: 60 },
+    { img: './Hummus Moutabal.jpg', name: 'Hummus Moutabal', price: 130 }
   ];
   
 
