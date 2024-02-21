@@ -35,7 +35,7 @@ function showCartItems() {
       itemDiv.innerHTML = `
         <div class="fh5co-food-desc" style="display: flex; align-items: center; justify-content: space-between">
           <figure style="margin-right: 10px;">
-            <img width="20px" src="${item.img}" class="img-responsive" alt="Free HTML5 Templates by FREEHTML5.co">
+            <img width="20px" src="${item.img}" class="img-responsive" alt="img">
           </figure>
           <div>
             <p style="margin: 0;">${item.name}</p>
@@ -118,7 +118,7 @@ menuItems.forEach(item => {
   li.innerHTML = `
     <div class="fh5co-food-desc">
       <figure>
-        <img src="./foodano.jpg" class="img-responsive" alt="img">
+        <img src="${item.img}" class="img-responsive" alt="img">
       </figure>
       <div>
         <h3>${item.name}</h3>
