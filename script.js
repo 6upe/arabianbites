@@ -35,7 +35,7 @@ function showCartItems() {
       itemDiv.innerHTML = `
         <div class="fh5co-food-desc" style="display: flex; align-items: center; justify-content: space-between">
           <figure style="margin-right: 10px;">
-            <img width="20px" src="./foodano.jpg" class="img-responsive" alt="Free HTML5 Templates by FREEHTML5.co">
+            <img width="20px" src="${item.img}" class="img-responsive" alt="Free HTML5 Templates by FREEHTML5.co">
           </figure>
           <div>
             <p style="margin: 0;">${item.name}</p>
@@ -103,10 +103,10 @@ function sendOrder(orderDetails) {
 
   // Sample menu items
 const menuItems = [
-    { name: 'Buffalo Wings', price: 120 },
-    { name: 'Fatteh', price: 150 },
-    { name: 'Chips Big Plate', price: 60 },
-    { name: 'Hummus Moutabal', price: 130 }
+    { img: './foodano.jpg', name: 'Buffalo Wings', price: 120 },
+    { img: './foodano.jpg', name: 'Fatteh', price: 150 },
+    { img: './foodano.jpg', name: 'Chips Big Plate', price: 60 },
+    { img: './foodano.jpg', name: 'Hummus Moutabal', price: 130 }
   ];
   
 
